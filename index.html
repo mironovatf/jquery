@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", onDom)
+        function onDom(event) {
+            console.log("DOM ready")
+        }
+      
+       
+     
+      
+
+        $("document").ready(function () {
+            
+            // $("h1").css("border", "3px dashed crimson");
+            // $("p").css({ "font-size": "3rem", "color": "red" })
+        // });
+        // // $("p:first").css({ "font-size": "3rem", "color": "red" }) // apply filter for first <p>
+        //         $(".red").css({ "font-size": "3rem", "color": "red" })
+                $(".red").on("click", function () { console.log("p clicked") })
+        });
+
+  
+    
+      
+
+    </script>
+
+</head>
+
+<body>
+
+        <h1>JQuery Intro</h1>
+
+
+        <div class="mydiv">
+            <p class="red">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum exercitationem nemo ipsum
+                deleniti
+                asperiores corporis sint veniam, minus itaque aliquid, quod saepe esse labore fugit atque nesciunt, eum
+                repellendus veritatis aspernatur. Similique perferendis sapiente ipsum unde, in ipsam et repellat,
+                cupiditate consequatur eaque dolor voluptatum necessitatibus! Magni, cumque aspernatur? Dolorem.</p>
+        </div>
+    
+    
+        <p>Today is Wednesday</p>
+    <!-- 
+    <script>
+        $('h1').append("<span> this is jquery</span>");
+
+        $('h1').fadeOut(0);
+
+        $('h1').fadeIn(2000);
+
+    </script> -->
+
+</body>
+
+</html>
